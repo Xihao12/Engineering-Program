@@ -183,7 +183,7 @@ interface Tag {
 - Firefox (最新版本)
 - Safari (最新版本)
 
-## 开发计划
+## Develop Plans
 
 - [ ] 数据导入/导出功能
 - [ ] 书签批量操作
@@ -192,15 +192,18 @@ interface Tag {
 - [ ] 键盘快捷键
 - [ ] 书签分享功能
 
-## 许可证
+## License
 
 MIT License
 
-## 作者
+## Author
+
+Xihao Yang
 
 CogniLink 项目
 
 ---
 
 **注意**: 这是一个纯客户端应用，所有数据都存储在浏览器的 IndexedDB 中。清除浏览器数据将导致所有书签丢失，请定期导出数据备份。
+
 

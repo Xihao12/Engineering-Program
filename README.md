@@ -26,7 +26,7 @@ CogniLink 是一个功能强大的客户端书签和知识管理系统，完全�
 ```
 CogniLink/
 ├── src/
-│   ├── components/       # React 组件
+│   ├── components/      # React suites
 │   │   ├── bookmarks/   # 书签相关组件
 │   │   ├── categories/  # 分类相关组件
 │   │   ├── tags/        # 标签相关组件
@@ -205,6 +205,7 @@ CogniLink 项目
 ---
 
 **注意**: 这是一个纯客户端应用，所有数据都存储在浏览器的 IndexedDB 中。清除浏览器数据将导致所有书签丢失，请定期导出数据备份。
+
 
 
 

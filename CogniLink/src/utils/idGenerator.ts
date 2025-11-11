@@ -1,19 +1,20 @@
 /**
- * 唯一ID生成器
+ * Unique ID Generator
  */
 export class IdGenerator {
   /**
-   * 生成唯一的ID
+   * Generate Unique ID
    */
   static generate(): string {
     return `${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
   }
 
   /**
-   * 生成基于时间戳的ID
+   * Generate timestamp-based ID
    */
   static generateTimestampId(): string {
     return `id-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
   }
 }
+
 

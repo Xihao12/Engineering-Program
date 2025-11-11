@@ -1,0 +1,33 @@
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag-cloud-tag {
+  padding: 0.5rem 1rem;
+  background-color: #e5e7eb;
+  color: #374151;
+  border: none;
+  border-radius: 16px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tag-cloud-tag:hover {
+  background-color: #d1d5db;
+}
+
+.tag-cloud-tag.active {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.tag-cloud-empty {
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.875rem;
+  padding: 2rem;
+}
+

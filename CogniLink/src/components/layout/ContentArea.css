@@ -1,0 +1,64 @@
+.content-area {
+  flex: 1;
+  overflow: hidden;
+  background-color: white;
+  transition: margin-left 0.3s;
+}
+
+.content-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #6b7280;
+}
+
+.content-area-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  .content-area-grid {
+    grid-template-columns: 400px 1fr;
+  }
+}
+
+.content-area-list {
+  border-right: 1px solid #e5e7eb;
+  overflow-y: auto;
+}
+
+.content-area-detail {
+  display: none;
+  overflow-y: auto;
+  background-color: #f9fafb;
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  .content-area-detail {
+    display: block;
+  }
+}
+
+@media (max-width: 1023px) {
+  .content-area-grid.has-detail .content-area-list {
+    display: none;
+  }
+
+  .content-area-grid.has-detail .content-area-detail {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    background-color: white;
+  }
+}
+

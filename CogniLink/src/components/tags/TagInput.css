@@ -1,0 +1,64 @@
+.tag-input {
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  padding: 0.5rem;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  background-color: white;
+  transition: border-color 0.2s;
+}
+
+.tag-input:focus-within {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.tag-input-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.tag-input-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  background-color: #e5e7eb;
+  color: #374151;
+  border-radius: 12px;
+  font-size: 0.875rem;
+}
+
+.tag-input-tag-remove {
+  background: none;
+  border: none;
+  color: #6b7280;
+  cursor: pointer;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1;
+  transition: color 0.2s;
+}
+
+.tag-input-tag-remove:hover {
+  color: #ef4444;
+}
+
+.tag-input-input {
+  flex: 1;
+  min-width: 120px;
+  border: none;
+  outline: none;
+  font-size: 0.875rem;
+  padding: 0.25rem 0;
+}
+
+.tag-input-input::placeholder {
+  color: #9ca3af;
+}
+

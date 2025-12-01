@@ -1,4 +1,4 @@
-# CogniLink - 智能书签和知识管理系统
+# CogniLink - Bookmarks and Knowledge Management System
 
 CogniLink 是一个功能强大的客户端书签和知识管理系统，完全运行在浏览器中，使用 IndexedDB 进行数据存储。
 
@@ -46,21 +46,21 @@ CogniLink/
 └── vite.config.ts
 ```
 
-## 安装和运行
+## Installation and operation
 
-### 安装依赖
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-### 开发模式
+### Development mode
 
 ```bash
 npm run dev
 ```
 
-应用将在 http://localhost:5173 启动
+The Engineering Program will launch at http://localhost:5173
 
 ### 构建生产版本
 
@@ -205,6 +205,7 @@ CogniLink 项目
 ---
 
 **注意**: 这是一个纯客户端应用，所有数据都存储在浏览器的 IndexedDB 中。清除浏览器数据将导致所有书签丢失，请定期导出数据备份。
+
 
 
 

@@ -4,7 +4,7 @@ CogniLink 是一个功能强大的客户端书签和知识管理系统，完全�
 
 ## 功能特性
 
-- 📚 **Smart Bookmark Management** - 添加、编辑、删除和组织书签 Add、edit、delete and organize bookmarks
+- 📚 **Smart Bookmark Management** -  Add、edit、delete and organize bookmarks
 - 🔍 **全文搜索** - 自定义倒排索引实现快速全文搜索
 - 🏷️ **标签系统** - 使用标签对书签进行分类和组织
 - 📁 **分类管理** - 创建和管理书签分类
@@ -205,6 +205,7 @@ CogniLink -Engineering Project
 ---
 
 **注意**: 这是一个纯客户端应用，所有数据都存储在浏览器的 IndexedDB 中。清除浏览器数据将导致所有书签丢失，请定期导出数据备份。
+
 
 
 

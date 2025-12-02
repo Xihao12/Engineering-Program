@@ -27,20 +27,20 @@ CogniLink 是一个功能强大的客户端书签和知识管理系统，完全�
 CogniLink/
 ├── src/
 │   ├── components/      # React suites
-│   │   ├── bookmarks/   # 书签相关组件
-│   │   ├── categories/  # 分类相关组件
-│   │   ├── tags/        # 标签相关组件
-│   │   ├── search/      # 搜索相关组件
-│   │   ├── filters/     # 筛选相关组件
-│   │   ├── layout/      # 布局组件
-│   │   └── ui/          # UI 基础组件
+│   │   ├── bookmarks/   # Bookmark Components
+|   |   ├── categories   # Category components
+|   |   |-- tags/        # Tag components
+|   |   |-- search/      # Search components
+|   |   |-- filters/     # Filter components
+|   |   |-- layout/      # Layout components
+|   |   `-- ui/          # UI base components
 │   ├── contexts/        # React Context
-│   ├── db/              # IndexedDB 数据库管理
-│   ├── services/        # 业务逻辑服务
-│   ├── types/           # TypeScript 类型定义
-│   ├── utils/           # 工具函数
-│   ├── App.tsx          # 主应用组件
-│   └── main.tsx         # 应用入口
+│   ├── db/              # IndexedDB Dabase management
+│   ├── services/        # Business Logic Service
+│   ├── types/           # TypeScript Type Definitions
+│   ├── utils/           # Utility Function
+│   ├── App.tsx          # Main APllication Component
+│   └── main.tsx         # Application
 ├── package.json
 ├── tsconfig.json
 └── vite.config.ts
@@ -205,6 +205,7 @@ CogniLink -Engineering Project
 ---
 
 **注意**: 这是一个纯客户端应用，所有数据都存储在浏览器的 IndexedDB 中。清除浏览器数据将导致所有书签丢失，请定期导出数据备份。
+
 
 
 
